@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function About() {
     return (
         <div>
-            <div className="bg-yellow-400" id="about">
+            <div className="bg-one" id="about">
                 <div className="container px-8 mx-auto py-4">
                     <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-2 mx-auto">
                         <div className="max-w-d h-auto p-4">

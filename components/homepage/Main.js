@@ -13,7 +13,7 @@ export default function Main() {
                                 <h1 className="text-2xl md:text-3xl lg:text-5xl font-medium uppercase">Khoironi Kurnia Syah</h1>
                                 <h3 className="text-xl md:text-2xl font-medium mb-2">Full-Stack Developer</h3>
                                 <Link href="https://www.linkedin.com/in/khoironiks/">
-                                    <button className="text-white bg-black border border-solid border-black hover:bg-white hover:text-black active:bg-white font-bold uppercase px-3 py-2 md:px-5 md:py-2 rounded outline-none focus:outline-none mr-1 mb-1" type="button" style={{ transition: "all .15s ease" }}>
+                                    <button className="text-white border border-solid bg-two border-two hover:bg-white hover:text-two active:bg-white font-bold uppercase px-3 py-2 md:px-5 md:py-2 rounded outline-none focus:outline-none mr-1 mb-1" type="button" style={{ transition: "all .15s ease" }}>
                                         Hire Me
                                     </button>
                                 </Link>
