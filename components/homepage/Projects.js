@@ -6,11 +6,11 @@ export default function Projects() {
             <div id="projects">
                 <div className="container px-8 mx-auto py-4">
                     <h3 className="text-xl text-center md:text-2xl font-medium mb-2 py-2">Projects</h3>
-                    <h1 className="text-4xl text-center">Work In Progress</h1>
+                    {/* <h1 className="text-4xl text-center">Work In Progress</h1> */}
                     <div className="grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-2 mx-auto ">
                         <div className="max-w rounded-lg hover:shadow-lg transform transition duration-500 hover:scale-110 m-2">
                             <div className="px-6 py-4">
-                            <img className="object-cover border" src="/images/projects/portfolio.png" alt="Next JS Portfolio Website"/>
+                            <img className="object-cover w-full border" src="/images/projects/portfolio.png" alt="Next JS Portfolio Website"/>
                             <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">Portfolio Website</h4>
                             <h5 className="text-md font-semibold tracking-tight text-gray-800">Technologies :</h5>
                                 <div class="flex justify-start gap-1 py-2">

@@ -7,7 +7,7 @@ export default function Layout (props) {
         <div>
             <Head>
                 <title>{props.title}</title>
-                <script src="https://kit.fontawesome.com/850b50a31b.js" rel="stylesheet" crossorigin="anonymous"/>
+                <script src="https://kit.fontawesome.com/850b50a31b.js" rel="stylesheet"/>
                 <link rel="shortcut icon" href="favicon.png" type="image/png"/>
             </Head>
             <Navbar/>

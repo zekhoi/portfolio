@@ -24,7 +24,7 @@ export default function Interests() {
                             <div className="p-6">
                                 <Image className="object-cover" src="/images/svg/web-development.svg" alt="Web Development" width={50} height={50} />
                                 <h4 className="my-3 text-xl font-semibold tracking-tight text-gray-800">Web Development</h4>
-                                <p className="text-black my-1">Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience.</p>
+                                <p className="text-black my-1">Web development is the building and maintenance of websites, the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience.</p>
                                 <Link href="https://en.wikipedia.org/wiki/Web_development">
                                     <button className="mt-3 text-white bg-black border border-solid border-black hover:bg-white hover:text-black active:bg-white font-bold px-3 py-2 md:px-3 md:py-2 rounded outline-none focus:outline-none mr-1 mb-1" type="button" style={{ transition: "all .15s ease" }}>
                                         Learn More
