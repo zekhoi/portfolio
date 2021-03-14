@@ -1,5 +1,5 @@
 import { useState } from "react"
-
+import Link from 'next/link'
 export default function Navbar() {
 
     const [click, setClick] = useState(false)
@@ -25,6 +25,9 @@ export default function Navbar() {
                         <a href="#skills" className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">Skills</a>
                         <a href="#activities" className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">Activities</a>
                         <a href="#projects" className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">Projects</a>
+                        <Link href="/blog">
+                            <a href="#projects" className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">Blog</a>
+                        </Link>
                     </div>
                 </div>
             </nav>
