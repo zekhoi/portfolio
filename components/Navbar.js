@@ -20,11 +20,11 @@ export default function Navbar() {
     }
     return (
         <div>
-            <nav className={`fixed w-full z-10 top-0 py-2 ${navBackground ? "bg-transparent text-black" : "bg-two text-white"} ${click ? "shadow" : ""} `}>
+            <nav className={`fixed w-full z-10 top-0 py-2 ${navBackground ? "bg-transparent text-black" : "bg-one text-black"} ${click ? "shadow" : ""} `}>
                 <div className="container px-4 mx-auto md:flex md:items-center">
 
                     <div className="flex justify-between p-2 items-center">
-                        <a className={`font-bold text-3xl text-white1 ${navBackground ? "text-two" : "text-white"}`}>KKS</a>
+                        <a className={`font-bold text-3xl text-white1 ${navBackground ? "text-one" : "text-black"}`}>KKS</a>
                         <button className={`px-3 py-1 rounded opacity-50 hover:opacity-75 md:hidden ${navBackground ? "text-black" : "text-white"}`} onClick={handleClick}>
                             {click ? <i class="fas fa-times"></i> : <i className="fas fa-bars"></i>}
                         </button>
