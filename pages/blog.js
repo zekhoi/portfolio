@@ -82,8 +82,8 @@ const BlogListItem = ({ slug, title, date, content }) => {
     return (
         <Link href={`/${slug}`}>
                 <div className="cursor-pointer rounded p-4 md:w-3/5 w-auto md:mx-auto hover:bg-gray-300 hover:bg-opacity-20 border-b border-opacity-10">
-                    <p className="text-black">{title}</p>
-                    <p className="text-gray-300">{format(parseISO(date), 'MMMM do, uuu')}</p>
+                    <p className="text-black font-medium text-xl">{title}</p>
+                    <p className="text-gray-400">{format(parseISO(date), 'MMMM do, uuu')}</p>
                 </div>
         </Link>
     );
