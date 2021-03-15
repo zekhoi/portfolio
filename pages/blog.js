@@ -21,23 +21,39 @@ export default function Blog({ posts }) {
         }
     }
     
+    // const [searchTotal, setSearchTotal] = useState(posts.length)
+
     const componentDidMount = () => {
         window.addEventListener('scroll', changeBackground);
     }
+
+    const [searchTerm, setSearchTerm] = useState("")
+
     return (
         <div>
             <Bloglayout title="Blog - Khoironi Kurnia Syah">
                 <div className="bg-white">
                     <div className="mt-32">
-                        <div className="container md:mx-auto mx-4">
-                            <h5 className="font-semibold text-3xl md:w-3/5 w-auto md:mx-auto">Daily Note</h5>
-                            <div className="md:w-3/5 w-auto mx-auto flex my-4 items-center">
-                                <input type="search" name="serch" placeholder="Search . . ." className="bg-white h-10 md:w-11/12 w-4/5 p-3 border-2 rounded text-sm focus:outline-none focus:border-one"/>
-                                <h3 className="text-two font-bold text-2xl mx-auto">{posts.length}</h3>
+                        <div className="container md:mx-auto px-4">
+                            <h5 className="flex font-semibold text-3xl md:w-3/5 w-auto md:mx-auto">Daily Note</h5>
+                            <div className="md:w-3/5 w-full flex my-4 mx-auto">
+                            {/* <input type="search" name="search" placeholder="Search . . ." className="bg-white h-10 md:w-11/12 w-4/5 p-3 border-2 rounded text-sm focus:outline-none focus:border-one" onChange={handleChange}/> */}
+                                <input type="search" name="search" placeholder="Search . . ." className="bg-white h-10 w-full p-3 border-2 rounded text-sm focus:outline-none focus:border-one" onChange={
+                                    event => {
+                                        setSearchTerm(event.target.value)
+                                    }
+                                }/>
+                                {/* <h3 className="text-two font-bold text-2xl mx-auto">{posts.length}</h3> */}
                             </div>
                             <div className="grid grid-cols-1">
-                                {posts.map((item) => (
-                                <BlogListItem key={item.slug} {...item} />
+                                {posts.filter((item) => {
+                                        if (searchTerm == ""){
+                                            return item
+                                        }else if(item.title.toLowerCase().includes(searchTerm.toLocaleLowerCase())){
+                                            return item
+                                        }
+                                    }).map((item) => (
+                                    <BlogListItem key={item.slug} {...item} />
                                 ))}
                             </div>
                         </div>

@@ -13,7 +13,7 @@ export default function BlogPage({ title, date, content }) {
       <Bloglayout title={title}>
           <div className="bg-white">
             <div className="mt-32">
-              <div className="container md:mx-auto mx-4">
+              <div className="container md:mx-auto px-4">
 
                 <div class="md:w-3/5 w-auto mx-auto my-4 items-center">
                   <div class="mb-8">
