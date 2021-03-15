@@ -34,7 +34,7 @@ export default function Blog({ posts }) {
             <Layout title="Blog - Khoironi Kurnia Syah">
                 <div className="bg-white">
                     <div className="mt-24">
-                        <div className="container md:mx-auto px-4">
+                        <div className="container md:mx-auto px-6 md:px-0">
                             <h5 className="flex font-semibold text-3xl md:w-3/5 w-auto md:mx-auto">Daily Notes</h5>
                             <div className="md:w-3/5 w-full flex my-4 mx-auto">
                             {/* <input type="search" name="search" placeholder="Search . . ." className="bg-white h-10 md:w-11/12 w-4/5 p-3 border-2 rounded text-sm focus:outline-none focus:border-one" onChange={handleChange}/> */}
