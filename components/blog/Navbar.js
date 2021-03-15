@@ -20,8 +20,6 @@ export default function Navbar() {
             ReactDOM.render(window.addEventListener('scroll', changeBackground));
             }, [])
     }
-
-    window.addEventListener('scroll', changeBackground)
     
     return (
         <div>

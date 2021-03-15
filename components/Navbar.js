@@ -22,9 +22,9 @@ export default function Navbar() {
             ReactDOM.render(window.addEventListener('scroll', changeBackground));
             }, [])
     }
-
-    window.addEventListener('scroll', changeBackground)
-    
+    const componentWillUnmount = () => {
+        window.removeEventListener('scroll', changeBackground);
+    }
     return (
         <div>
             <nav className={`fixed w-full z-10 top-0 py-2 ${navBackground ? "bg-white text-black" : "bg-one text-black"} ${click ? "shadow" : ""} `}>
