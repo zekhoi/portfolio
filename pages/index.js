@@ -1,5 +1,4 @@
 import Layout from '../components/Layout'
-import Image from 'next/image'
 
 import Main from '../components/homepage/Main'
 import About from '../components/homepage/About'

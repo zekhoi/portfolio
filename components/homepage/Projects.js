@@ -13,7 +13,7 @@ export default function Projects() {
                             <div className="px-6 py-4">
                                 <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">Portfolio Website</h4>
                                 <h5 className="text-md font-semibold tracking-tight text-gray-800">Technologies :</h5>
-                                <div class="flex justify-start gap-1 py-2">
+                                <div className="flex justify-start gap-1 py-2">
                                     <Image src="/images/icons/html5.png" alt="HTML5" width={25} height={25} />
                                     <Image src="/images/icons/css3.png" alt="CSS3" width={25} height={25} />
                                     <Image src="/images/icons/nextjs.png" alt="Next JS" width={25} height={25} />

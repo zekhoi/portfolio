@@ -13,7 +13,7 @@ export default function Activities() {
                                 <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">Shopee Code League 2021</h4>
                                 <Link href="https://github.com/zekhoi/shopeecodeleague">
                                     <button className="text-white bg-black border border-solid border-black hover:bg-white hover:text-black active:bg-white font-bold px-3 py-2 md:px-3 md:py-2 rounded outline-none focus:outline-none mr-1 mb-1" type="button" style={{ transition: "all .15s ease" }}>
-                                        <i class="fab fa-github"></i> Get Code
+                                        <i className="fab fa-github"></i> Get Code
                                     </button>
                                 </Link>
                             </div>

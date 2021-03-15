@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Navbar from './Navbar'
-import Footer from './Footer'
+import Footer from '../Footer'
 
-export default function Layout (props) {
+export default function Bloglayout (props) {
     return (
         <div>
             <Head>
