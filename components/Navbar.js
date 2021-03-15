@@ -1,12 +1,14 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Link from 'next/link'
 export default function Navbar() {
 
     const [click, setClick] = useState(false)
+    const [navBackground, setNavBackground] = useState(false)
+    
     const handleClick = () => {
         setClick(!click)
     }
-    const [navBackground, setNavBackground] = useState(false)
+    
     const changeBackground = () => {
         if(window.scrollY <= 96){
             setNavBackground(true)
@@ -16,11 +18,16 @@ export default function Navbar() {
     }
     
     const componentDidMount = () => {
-        window.addEventListener('scroll', changeBackground);
+        useEffect(() => {
+            ReactDOM.render(window.addEventListener('scroll', changeBackground));
+            }, [])
     }
+
+    window.addEventListener('scroll', changeBackground)
+    
     return (
         <div>
-            <nav className={`fixed w-full z-10 top-0 py-2 ${navBackground ? "bg-transparent text-black" : "bg-one text-black"} ${click ? "shadow" : ""} `}>
+            <nav className={`fixed w-full z-10 top-0 py-2 ${navBackground ? "bg-white text-black" : "bg-one text-black"} ${click ? "shadow" : ""} `}>
                 <div className="container px-4 mx-auto md:flex md:items-center">
 
                     <div className="flex justify-between p-2 items-center">

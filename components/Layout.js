@@ -7,8 +7,22 @@ export default function Layout (props) {
         <div>
             <Head>
                 <title>{props.title}</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta charSet="utf-8" />
+
                 <script src="https://kit.fontawesome.com/850b50a31b.js" rel="stylesheet"/>
                 <link rel="shortcut icon" href="favicon.png" type="image/png"/>
+
+                {/* Twitter */}
+                <meta name="twitter:card" content="summary" key="twcard" />
+                <meta name="twitter:creator" content="Khoironi Kurnia Syah" key="twhandle" />
+
+                {/* Open Graph */}
+                {/* <meta property="og:url" content={currentURL} key="ogurl" />
+                <meta property="og:image" content={previewImage} key="ogimage" /> */}
+                <meta property="og:site_name" content="Khoironi Kurnia Syah" key="ogsitename" />
+                <meta property="og:title" content={props.title} key="ogtitle" />
+                <meta property="og:description" content={props.title} key="ogdesc" />
             </Head>
             <Navbar/>
             {props.children}

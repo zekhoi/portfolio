@@ -16,11 +16,16 @@ export default function Navbar() {
     }
     
     const componentDidMount = () => {
-        window.addEventListener('scroll', changeBackground);
+        useEffect(() => {
+            ReactDOM.render(window.addEventListener('scroll', changeBackground));
+            }, [])
     }
+
+    window.addEventListener('scroll', changeBackground)
+    
     return (
         <div>
-            <nav className={`fixed w-full z-10 top-0 py-2 ${navBackground ? "bg-transparent text-black" : "bg-one text-black shadow"}`}>
+            <nav className={`fixed w-full z-10 top-0 py-2 ${navBackground ? "bg-white text-black" : "bg-one text-black shadow"}`}>
                 <div className="container px-4 mx-auto md:flex items-center md:w-3/5 w-auto">
 
                     <div className="flex justify-between p-2 items-center">

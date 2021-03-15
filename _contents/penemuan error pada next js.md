@@ -2,12 +2,12 @@
 title: Penemuan Bug Pada Next JS
 date: 2021-02-14T19:05:27.220Z
 ---
-Ditemukannya bug sebagai berikut
+Tidak ditemukannya `window` pada Next JS saat membuat onScroll change navbar background dan hanya terjadi di mobile
 
 ```js
-var foo = function (bar) {
-  return bar++;
-};
+Server Error
 
-console.log(foo(5));
+ReferenceError: window is not defined
+
+This error happened while generating the page. Any console logs will be displayed in the terminal window.
 ```
