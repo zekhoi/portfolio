@@ -10,7 +10,7 @@ export default function Bloglayout (props) {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta charSet="utf-8" />
 
-                <script src="https://kit.fontawesome.com/850b50a31b.js" rel="stylesheet"/>
+                <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet"/>
                 <link rel="shortcut icon" href="favicon.png" type="image/png"/>
 
                 {/* Twitter */}

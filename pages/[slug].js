@@ -19,7 +19,7 @@ export default function BlogPage({ title, date, content }) {
                 <div class="md:w-3/5 w-auto mx-auto my-4 items-center">
                 <Link href="/blog">
                     <button className="text-yellow-400 bg-transparent font-bold px-3 py-2 md:px-5 md:py-2 rounded outline-none focus:outline-none mr-1 mb-1" type="button" style={{ transition: "all .15s ease" }}>
-                        <i className="fas fa-arrow-left"></i> Go Back
+                      <i className="lni lni-backward"></i> Go Back
                     </button>
                 </Link>
                   <div class="mb-8">
