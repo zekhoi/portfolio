@@ -1,6 +1,6 @@
 ---
 title: Penemuan Bug Pada Next JS
-date: 2021-02-14T19:05:27.220Z
+date: 2021-03-15T19:05:27.220Z
 ---
 Tidak ditemukannya `window` pada Next JS saat membuat onScroll change navbar background dan hanya terjadi di mobile
 
