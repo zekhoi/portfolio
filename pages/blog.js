@@ -33,7 +33,7 @@ export default function Blog({ posts }) {
         <div>
             <Bloglayout title="Blog - Khoironi Kurnia Syah">
                 <div className="bg-white">
-                    <div className="mt-32">
+                    <div className="mt-24">
                         <div className="container md:mx-auto px-4">
                             <h5 className="flex font-semibold text-3xl md:w-3/5 w-auto md:mx-auto">Daily Note</h5>
                             <div className="md:w-3/5 w-full flex my-4 mx-auto">
