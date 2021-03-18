@@ -10,7 +10,7 @@ export default function Custom404() {
                 <link rel="shortcut icon" href="favicon.png" type="image/png"/>
                 <script src="https://kit.fontawesome.com/850b50a31b.js" rel="stylesheet"/>
             </Head>
-            <div className="flex bg-two min-w-full min-h-screen justify-center items-center">
+            <div className="flex bg-one min-w-full min-h-screen justify-center items-center">
                 <div className="container px-8 mx-auto">
                     <div className="max-w bg-white rounded-lg shadow-lg p-8 my-8">
                         <div className="container mx-auto">

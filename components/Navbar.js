@@ -22,6 +22,8 @@ export default function Navbar() {
             ReactDOM.render(window.addEventListener('scroll', changeBackground));
             }, [])
     }
+
+
     const componentWillUnmount = () => {
         window.removeEventListener('scroll', changeBackground);
     }
