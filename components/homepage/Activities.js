@@ -4,9 +4,11 @@ export default function Activities() {
     return (
         <div>
             <div id="activities">
-                <div className="container px-8 mx-auto py-4">
-                    <h3 className="text-xl text-center md:text-2xl font-medium mb-2 py-2">Activities</h3>
-                    <div className="grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-6 mx-auto">
+                <div className="container px-8 mx-auto py-4 border-b">
+                    <h3 className="text-xl text-center md:text-2xl font-medium mb-2 py-2 mt-14">Activities</h3>                 
+                    <h1 className="text-4xl text-center">Work In Progress</h1>
+                    {/* <div className="grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-6 mx-auto">   
+
                         <div className="max-w rounded-lg hover:shadow-lg shadow transform transition duration-500 hover:scale-110 m-2">
                             <img className="object-cover w-full border-t border-b rounded-b-none rounded" src="https://careers.shopee.sg/codeleague/images/seo.jpg" alt="Shopee Code League 2021"/>
                             <div className="px-6 py-4">
@@ -18,7 +20,8 @@ export default function Activities() {
                                 </Link>
                             </div>
                         </div>
-                    </div>
+                        
+                    </div> */}
                 </div>
             </div>
         </div>

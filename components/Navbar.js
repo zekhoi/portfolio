@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import Link from 'next/link'
+import { Link } from 'react-scroll'
 export default function Navbar() {
 
     const [click, setClick] = useState(false)
@@ -29,7 +29,7 @@ export default function Navbar() {
     }
     return (
         <div>
-            <nav className={`fixed w-full z-10 top-0 py-2 ${navBackground ? "bg-white text-black" : "bg-one text-black"} ${click ? "shadow" : ""} `}>
+            <nav className={`fixed w-full z-10 top-0 py-2 ${navBackground ? "bg-white text-black" : "bg-white text-black"} ${click ? "shadow" : ""} `}>
                 <div className="container px-4 mx-auto md:flex md:items-center">
 
                     <div className="flex justify-between p-2 items-center">
@@ -40,26 +40,23 @@ export default function Navbar() {
                     </div>
 
                     <div className={`md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0 font-medium text-center md:text-left ${click ? "flex" : "hidden"}`}  id="navbar-collapse">
-                        <Link href="/#home">
-                            <a className="p-2 lg:px-4 md:mx-2 rounded hover:bg-black hover:text-white transition-colors duration-300">Home</a>
+                        <Link className="cursor-pointer	p-2 lg:px-4 md:mx-2 rounded hover:bg-black hover:text-white transition-colors duration-300" to="home" spy={true} smooth={true} duration={500}>
+                            Home
                         </Link>
-                        <Link href="/#about">
-                            <a className="p-2 lg:px-4 md:mx-2 rounded hover:bg-black hover:text-white transition-colors duration-300">About</a>
+                        <Link className="cursor-pointer	p-2 lg:px-4 md:mx-2 rounded hover:bg-black hover:text-white transition-colors duration-300" to="about" spy={true} smooth={true} duration={500}>
+                            About
                         </Link>
-                        <Link href="/#interests">
-                            <a className="p-2 lg:px-4 md:mx-2 rounded hover:bg-black hover:text-white transition-colors duration-300">Interest</a>
+                        <Link className="cursor-pointer	p-2 lg:px-4 md:mx-2 rounded hover:bg-black hover:text-white transition-colors duration-300" to="interests" spy={true} smooth={true} duration={500}>
+                            Interests
                         </Link>
-                        <Link href="/#skills">
-                            <a className="p-2 lg:px-4 md:mx-2 rounded hover:bg-black hover:text-white transition-colors duration-300">Skills</a>
+                        <Link className="cursor-pointer	p-2 lg:px-4 md:mx-2 rounded hover:bg-black hover:text-white transition-colors duration-300" to="skills" spy={true} smooth={true} duration={500}>
+                            Skills
                         </Link>
-                        <Link href="/#activities">
-                            <a className="p-2 lg:px-4 md:mx-2 rounded hover:bg-black hover:text-white transition-colors duration-300">Activities</a>
+                        <Link className="cursor-pointer	p-2 lg:px-4 md:mx-2 rounded hover:bg-black hover:text-white transition-colors duration-300" to="activities" spy={true} smooth={true} duration={500}>
+                            Activities
                         </Link>
-                        <Link href="/#projects">
-                            <a className="p-2 lg:px-4 md:mx-2 rounded hover:bg-black hover:text-white transition-colors duration-300">Projects</a>
-                        </Link>
-                        <Link href="/blog">
-                            <a className="p-2 lg:px-4 md:mx-2 rounded hover:bg-black hover:text-white transition-colors duration-300">Blog</a>
+                        <Link className="cursor-pointer	p-2 lg:px-4 md:mx-2 rounded hover:bg-black hover:text-white transition-colors duration-300" to="projects" spy={true} smooth={true} duration={500}>
+                            Projects
                         </Link>
                     </div>
                 </div>

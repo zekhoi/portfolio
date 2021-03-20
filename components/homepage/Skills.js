@@ -4,8 +4,8 @@ export default function Skills() {
     return (
         <div>
             <div id="skills">
-                <div className="container px-8 mx-auto">
-                    <h3 className="text-xl text-center md:text-2xl font-medium py-2">Skills</h3>
+                <div className="container px-8 mx-auto border-b">
+                    <h3 className="text-xl text-center md:text-2xl font-medium py-2 mt-14">Skills</h3>
                     <div className="grid xl:grid-cols-6 md:grid-cols-4 grid-cols-2 gap-6 text-center">
                         <div className="max-w-d h-auto rounded-lg transform transition duration-500 hover:scale-110 p-4">
                             <Image src="/images/icons/python.png" alt="Python" width={100} height={100} />
