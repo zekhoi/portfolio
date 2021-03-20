@@ -1,3 +1,5 @@
+import { animateScroll as scroll } from 'react-scroll'
+
 export default function Footer() {
     return (
         <div>
@@ -9,6 +11,7 @@ export default function Footer() {
                         </p>
                     </div>
                 </div>
+            <button className="fixed rounded-full bg-black text-white p-3 flex right-5 bottom-5 z-50 focus:outline-none" onClick={() => scroll.scrollToTop()}><i className="lni lni-chevron-up"></i></button>
             </div>
         </div>
     )

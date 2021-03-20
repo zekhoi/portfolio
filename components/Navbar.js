@@ -19,7 +19,7 @@ export default function Navbar() {
     
     const componentDidMount = () => {
         useEffect(() => {
-            ReactDOM.render(window.addEventListener('scroll', changeBackground));
+            render(window.addEventListener('scroll', changeBackground));
             }, [])
     }
 
