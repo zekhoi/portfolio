@@ -11,7 +11,7 @@ export default function Main() {
                             <div className="text-center md:text-left my-auto">
                                 <h5 className="text-md md:text-xl font-bold">Hello, I am</h5>
                                 <h1 className="text-2xl md:text-3xl lg:text-5xl font-medium uppercase my-2">Khoironi Kurnia Syah</h1>
-                                <h3 className="text-xl md:text-2xl font-medium mb-4">Full-Stack Developer</h3>
+                                <h2 className="text-xl md:text-2xl font-medium mb-4">Full-Stack Developer</h2>
                                 <Link href="https://www.linkedin.com/in/khoironiks/">
                                     <button className="text-white border border-solid bg-black border-black hover:bg-white hover:text-black active:bg-white font-bold uppercase px-3 py-2 md:px-5 md:py-2 rounded outline-none focus:outline-none mr-1 mb-1" type="button" style={{ transition: "all .15s ease" }}>
                                         Hire Me
