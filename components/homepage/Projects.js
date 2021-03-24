@@ -6,7 +6,7 @@ export default function Projects() {
             <div id="projects">
                 <div className="container px-8 mx-auto py-4 border-b">
                     <h5 className="text-xl text-center md:text-2xl font-medium mb-2 py-2 mt-14">Projects</h5>
-                    <a className="text-4xl text-center">Work In Progress</a>
+                    <h1 className="text-4xl text-center">Work In Progress</h1>
                     {/* <div className="grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-2 mx-auto ">
                         <div className="max-w rounded-lg shadow hover:shadow-lg transform transition duration-500 hover:scale-110 m-2">
                             <img className="object-cover w-full border-t border-b rounded-b-none rounded" src="/images/projects/portfolio.png" alt="Next JS Portfolio Website"/>
