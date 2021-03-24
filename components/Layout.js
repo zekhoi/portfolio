@@ -17,6 +17,11 @@ export default function Layout (props) {
                 <meta name="twitter:card" content="summary" key="twcard" />
                 <meta name="twitter:creator" content="Khoironi Kurnia Syah" key="twhandle" />
 
+
+                {/* Meta Tags */}
+                <meta name="description" content={props.title}/>
+                <meta name="keywords" content={props.title}/>
+                <meta name="author" content="Khoironi Kurnia Syah"/>
                 {/* Open Graph */}
                 {/* <meta property="og:url" content={currentURL} key="ogurl" />
                 <meta property="og:image" content={previewImage} key="ogimage" /> */}

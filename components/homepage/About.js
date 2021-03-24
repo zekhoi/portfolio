@@ -12,7 +12,7 @@ export default function About() {
                         </div>
                         <div className="max-w-d h-auto p-4 my-auto">
                             <h2 className="text-2xl md:text-2xl font-medium py-2">About Me</h2>
-                            <h4 className="font-sans font-medium text-xl text-gray-700">Full-Stack Developer</h4>
+                            <h3 className="font-sans font-medium text-xl text-gray-700">Full-Stack Developer</h3>
                             <h5 className="font-sans mb-8 mt-4 text-gray-700">
                             Responsible for front-end and back-end web development. Understand several how to work with several languages and databases including PHP, HTML, CSS, JavaScript and everything in between.
                             </h5>
