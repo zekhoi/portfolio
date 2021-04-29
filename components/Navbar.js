@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react"
 import { Link } from 'react-scroll'
+import Fade from 'react-reveal/Fade';
+
 export default function Navbar() {
 
     const [click, setClick] = useState(false)
@@ -32,12 +34,13 @@ export default function Navbar() {
 
     return (
         <div>
+            <Fade top>
             <nav className={`fixed w-full z-10 top-0 py-2 ${navBackground ? "bg-white text-one" : "bg-two text-white"} ${click ? "shadow" : ""} `}>
                 <div className="container px-4 mx-auto md:flex md:items-center">
 
                     <div className="flex justify-between p-2 items-center">
                         <a href="/" className={`font-bold text-3xl text-white1 ${navBackground ? "text-one" : "text-white"}`}>KKS</a>
-                        <button className={`px-3 py-1 rounded opacity-50 hover:opacity-75 md:hidden ${navBackground ? "text-black" : "text-black"}`} onClick={handleClick}>
+                        <button className={`px-3 py-1 rounded opacity-50 hover:opacity-75 md:hidden ${navBackground ? "text-black" : "text-white"}`} onClick={handleClick}>
                             {click ? <i className="lni lni-close"></i> : <i className="lni lni-menu"></i>}
                         </button>
                     </div>
@@ -64,6 +67,7 @@ export default function Navbar() {
                     </div>
                 </div>
             </nav>
+            </Fade>
         </div>
     )
 }
