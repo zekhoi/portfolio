@@ -16,8 +16,8 @@ export default function Custom404() {
                         <div className="container mx-auto">
                             <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-6 mx-auto">
                                 <div className="text-center md:text-left md:m-auto mt-8">
-                                    <h1 className="font-bold text-yellow-400 text-xl md:text-2xl lg:text-3xl text-black">Hi, </h1>
-                                    <h1 className="text-2xl md:text-3xl lg:text-5xl text-yellow-400 font-bold uppercase  mt-0">You Seem to be Lost!</h1>
+                                    <h1 className="font-bold text-two text-xl md:text-2xl lg:text-3xl text-black">Hi, </h1>
+                                    <h1 className="text-2xl md:text-3xl lg:text-5xl text-two font-bold uppercase  mt-0">You Seem to be Lost!</h1>
                                     <div className="py-8">
                                         <p className="text-gray-500">
                                             The page you're looking for isn't available.
@@ -27,7 +27,7 @@ export default function Custom404() {
                                         </p>
                                     </div>
                                     <Link href="/">
-                                        <button className="text-yellow-400 bg-transparent font-bold px-3 py-2 md:px-5 md:py-2 rounded outline-none focus:outline-none mr-1 mb-1" type="button" style={{ transition: "all .15s ease" }}>
+                                        <button className="text-two bg-transparent font-bold px-3 py-2 md:px-5 md:py-2 rounded outline-none focus:outline-none mr-1 mb-1" type="button" style={{ transition: "all .15s ease" }}>
                                             <i className="fas fa-arrow-left"></i> Go Back
                                         </button>
                                     </Link>
