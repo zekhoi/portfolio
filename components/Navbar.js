@@ -46,22 +46,22 @@ export default function Navbar() {
                     </div>
 
                     <div className={`md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0 font-medium text-center md:text-left ${click ? "flex" : "hidden"}`}  id="navbar-collapse">
-                        <Link className="cursor-pointer	p-2 lg:px-4 md:mx-2 rounded hover:bg-two hover:text-white transition-colors duration-300" to="home" spy={true} smooth={true} duration={500}>
+                        <Link className={`cursor-pointer	p-2 lg:px-4 md:mx-2 rounded  ${navBackground ? "hover:bg-two hover:text-white" : "hover:bg-white hover:text-two"} transition-colors duration-300`} to="home" spy={true} smooth={true} duration={500}>
                             Home
                         </Link>
-                        <Link className="cursor-pointer	p-2 lg:px-4 md:mx-2 rounded hover:bg-two hover:text-white transition-colors duration-300" to="about" spy={true} smooth={true} duration={500}>
+                        <Link className={`cursor-pointer	p-2 lg:px-4 md:mx-2 rounded  ${navBackground ? "hover:bg-two hover:text-white" : "hover:bg-white hover:text-two"} transition-colors duration-300`} to="about" spy={true} smooth={true} duration={500}>
                             About
                         </Link>
-                        <Link className="cursor-pointer	p-2 lg:px-4 md:mx-2 rounded hover:bg-two hover:text-white transition-colors duration-300" to="interests" spy={true} smooth={true} duration={500}>
+                        <Link className={`cursor-pointer	p-2 lg:px-4 md:mx-2 rounded  ${navBackground ? "hover:bg-two hover:text-white" : "hover:bg-white hover:text-two"} transition-colors duration-300`} to="interests" spy={true} smooth={true} duration={500}>
                             Interests
                         </Link>
-                        <Link className="cursor-pointer	p-2 lg:px-4 md:mx-2 rounded hover:bg-two hover:text-white transition-colors duration-300" to="skills" spy={true} smooth={true} duration={500}>
+                        <Link className={`cursor-pointer	p-2 lg:px-4 md:mx-2 rounded  ${navBackground ? "hover:bg-two hover:text-white" : "hover:bg-white hover:text-two"} transition-colors duration-300`} to="skills" spy={true} smooth={true} duration={500}>
                             Skills
                         </Link>
-                        <Link className="cursor-pointer	p-2 lg:px-4 md:mx-2 rounded hover:bg-two hover:text-white transition-colors duration-300" to="activities" spy={true} smooth={true} duration={500}>
+                        <Link className={`cursor-pointer	p-2 lg:px-4 md:mx-2 rounded  ${navBackground ? "hover:bg-two hover:text-white" : "hover:bg-white hover:text-two"} transition-colors duration-300`} to="activities" spy={true} smooth={true} duration={500}>
                             Activities
                         </Link>
-                        <Link className="cursor-pointer	p-2 lg:px-4 md:mx-2 rounded hover:bg-two hover:text-white transition-colors duration-300" to="projects" spy={true} smooth={true} duration={500}>
+                        <Link className={`cursor-pointer	p-2 lg:px-4 md:mx-2 rounded  ${navBackground ? "hover:bg-two hover:text-white" : "hover:bg-white hover:text-two"} transition-colors duration-300`} to="projects" spy={true} smooth={true} duration={500}>
                             Projects
                         </Link>
                     </div>
