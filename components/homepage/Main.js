@@ -38,11 +38,11 @@ export default function Main() {
                                     <h5 className="text-sm my-2">Scroll Down</h5>
 
                                     <Go to="about" spy={true} smooth={true} duration={500}>
-                                    <button className="bg-transparent focus:outline-none text-2xl animate-bounce"><i className="lni lni-scroll-down"></i></button>
+                                    <button className="bg-transparent focus:outline-none text-2xl animate-bounce mt-3"><i className="lni lni-scroll-down"></i></button>
                                     </Go>
                                 </div>
                                 </Fade>
-                                
+
                             </div>
 
                         </div>
