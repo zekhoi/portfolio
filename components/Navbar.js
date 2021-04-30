@@ -35,7 +35,7 @@ export default function Navbar() {
     return (
         <div>
             <Fade top>
-            <nav className={`fixed w-full z-10 top-0 py-2 ${navBackground ? "bg-white text-one" : "bg-two text-white"} ${click ? "shadow" : ""} `}>
+            <nav className={`fixed w-full z-10 top-0 ${navBackground ? "bg-white text-one" : "bg-two text-white"} ${click ? "shadow" : ""} `}>
                 <div className="container px-4 mx-auto md:flex md:items-center">
 
                     <div className="flex justify-between p-2 items-center">
@@ -45,7 +45,7 @@ export default function Navbar() {
                         </button>
                     </div>
 
-                    <div className={`md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0 font-medium text-center md:text-left ${click ? "flex" : "hidden"}`}  id="navbar-collapse">
+                    <div className={`md:flex flex-col md:flex-row md:ml-auto py-2 md:mt-0 font-medium text-center md:text-left ${click ? "flex" : "hidden"}`}  id="navbar-collapse">
                         <Link className={`cursor-pointer	p-2 lg:px-4 md:mx-2 rounded  ${navBackground ? "hover:bg-two hover:text-white" : "hover:bg-white hover:text-two"} transition-colors duration-300`} to="home" spy={true} smooth={true} duration={500}>
                             Home
                         </Link>
