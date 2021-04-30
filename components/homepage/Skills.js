@@ -45,6 +45,12 @@ export default function Skills() {
 
                         <Fade bottom>
                         <div className="max-w-d h-auto rounded-lg transform transition duration-500 hover:scale-110 p-4">
+                            <Image src="/images/icons/sql.png" alt="SQL" width={50} height={50} />
+                        </div>
+                        </Fade>
+
+                        <Fade bottom>
+                        <div className="max-w-d h-auto rounded-lg transform transition duration-500 hover:scale-110 p-4">
                             <Image src="/images/icons/laravel.png" alt="Laravel" width={50} height={50} />
                         </div>
                         </Fade>
@@ -76,12 +82,6 @@ export default function Skills() {
                         <Fade bottom>
                         <div className="max-w-d h-auto rounded-lg transform transition duration-500 hover:scale-110 p-4">
                             <Image src="/images/icons/github.png" alt="Github" width={50} height={50} />
-                        </div>
-                        </Fade>
-
-                        <Fade bottom>
-                        <div className="max-w-d h-auto rounded-lg transform transition duration-500 hover:scale-110 p-4">
-                            <Image src="/images/icons/docker.png" alt="Docker" width={50} height={50} />
                         </div>
                         </Fade>
 
