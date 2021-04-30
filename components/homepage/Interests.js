@@ -15,7 +15,7 @@ export default function Interests() {
                     <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-2 mx-auto">
 
                         <Fade bottom>
-                        <div className="max-w-80 overflow-hidden rounded shadow transform transition duration-500 hover:scale-110 hover:shadow-2xl m-2">
+                        <div className="max-w-80 overflow-hidden rounded shadow transform transition duration-500 hover:scale-105 hover:shadow-2xl m-2">
                             <div className="p-6">
                                 <div className="max-w-max max-h-max shadow-md rounded-lg bg-one p-3 pb-2">
                                     <Image className="object-cover" src="/images/svg/data-science.svg" alt="Data Science" width={50} height={50} />
@@ -32,7 +32,7 @@ export default function Interests() {
                         </Fade>
 
                         <Fade bottom>
-                        <div className="max-w-80 overflow-hidden rounded shadow transform transition duration-500 hover:scale-110 hover:shadow-2xl m-2">
+                        <div className="max-w-80 overflow-hidden rounded shadow transform transition duration-500 hover:scale-105 hover:shadow-2xl m-2">
                             <div className="p-6">
                                 <div className="max-w-max max-h-max shadow-md rounded-lg bg-one p-3 pb-2">
                                     <Image className="object-cover" src="/images/svg/web-development.svg" alt="Web Development" width={50} height={50} />
@@ -49,7 +49,7 @@ export default function Interests() {
                         </Fade>
 
                         <Fade bottom>
-                        <div className="max-w-80 overflow-hidden rounded shadow transform transition duration-500 hover:scale-110 hover:shadow-2xl m-2">
+                        <div className="max-w-80 overflow-hidden rounded shadow transform transition duration-500 hover:scale-105 hover:shadow-2xl m-2">
                             <div className="p-6">
                                 <div className="max-w-max max-h-max shadow-md rounded-lg bg-one p-3 p-3 pb-2">
                                     <Image className="object-cover" src="/images/svg/cyber-security.svg" alt="Cyber Security" width={50} height={50} />
