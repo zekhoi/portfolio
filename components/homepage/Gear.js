@@ -15,15 +15,15 @@ export default function Gear() {
                             </Fade>
                             <Fade right>
                             <div className="max-w-md h-auto p-4 my-auto text-white">
-                                <div className="grid grid-rows gap-y-3">
-                                    <a className="font-sans font-medium ">• ASUS X555BP A9-9425 R5 8GB</a>
-                                    <a className="font-sans font-medium ">• Armaggeddon Gaming Monitor Pixxel+ Pro PF22HD 22” 75Hz</a>
-                                    <a className="font-sans font-medium ">• NYK Nemesis Keyboard Gaming KR-201 Game Master</a>
-                                    <a className="font-sans font-medium ">• Digital Alliance LUNA Gaming Mouse</a>
-                                    <a className="font-sans font-medium ">• Mousepad Rexus KVLAR T5 Gaming MousePad</a>
-                                    <a className="font-sans font-medium ">• Microsoft Headset</a>
-                                    <a className="font-sans font-medium ">• BM800 Microphone</a>
-                                </div>
+                                <ul className="list-disc">
+                                    <li className="font-sans font-medium ">ASUS X555BP A9-9425 R5 8GB</li>
+                                    <li className="font-sans font-medium ">Armaggeddon Gaming Monitor Pixxel+ Pro PF22HD 22” 75Hz</li>
+                                    <li className="font-sans font-medium ">NYK Nemesis Keyboard Gaming KR-201 Game Master</li>
+                                    <li className="font-sans font-medium ">Digital Alliance LUNA Gaming Mouse</li>
+                                    <li className="font-sans font-medium ">Mousepad Rexus KVLAR T5 Gaming MousePad</li>
+                                    <li className="font-sans font-medium ">Microsoft Headset</li>
+                                    <li className="font-sans font-medium ">BM800 Microphone</li>
+                                </ul>
                             </div>
                             </Fade>
 
