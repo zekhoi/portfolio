@@ -37,7 +37,7 @@ export default function Main() {
                                 <div className="my-3">
                                     <h5 className="text-sm my-2">Scroll Down</h5>
 
-                                    <Go to="about" spy={true} smooth={true} duration={500}>
+                                    <Go to="about" spy={true} smooth={true} duration={1000}>
                                     <button className="bg-transparent focus:outline-none text-2xl animate-bounce mt-3"><i className="lni lni-scroll-down"></i></button>
                                     </Go>
                                 </div>
