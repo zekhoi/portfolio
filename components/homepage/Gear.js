@@ -15,6 +15,7 @@ export default function Gear() {
                             </Fade>
                             <Fade right>
                             <div className="max-w-md h-auto p-4 my-auto text-white">
+                            <h2 className="text-2xl md:text-2xl font-medium py-2">My Gear</h2>
                                 <ul className="list-disc">
                                     <li className="font-sans font-medium ">ASUS X555BP A9-9425 R5 8GB</li>
                                     <li className="font-sans font-medium ">Armaggeddon Gaming Monitor Pixxel+ Pro PF22HD 22” 75Hz</li>

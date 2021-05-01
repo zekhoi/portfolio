@@ -6,7 +6,7 @@ export default function Activities() {
     return (
         <div>
             <div id="activities">
-                <div className="container px-8 mx-auto py-4 border-b">
+                <div className="container px-8 mx-auto py-4 mb-12">
 
                     <Fade top>
                     <h3 className="text-xl text-center md:text-2xl font-medium mb-2 py-2 mt-14">Activities</h3>       
