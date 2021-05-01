@@ -45,7 +45,7 @@ export default function Skills() {
 
                         <Fade bottom>
                         <div className="max-w-d h-auto rounded-lg transform transition duration-500 hover:scale-110 p-4">
-                            <Image src="/images/icons/sql.png" alt="SQL" width={50} height={50} />
+                            <Image src="/images/icons/postgresql.png" alt="PostgreSQL" width={50} height={50} />
                         </div>
                         </Fade>
 
