@@ -6,6 +6,8 @@ import Interests from '../components/homepage/Interests'
 import Skills from '../components/homepage/Skills'
 import Activities from '../components/homepage/Activities'
 import Projects from '../components/homepage/Projects'
+import Gear from '../components/homepage/Gear'
+import Social from '../components/homepage/Social'
 
 export default function Home() {
   return (
@@ -17,8 +19,10 @@ export default function Home() {
       <About/>
       <Interests/>
       <Skills/>
-      <Activities/>
       <Projects/>
+      <Activities/>
+      <Gear/>
+      <Social/>
 
       </Layout>
       

@@ -29,7 +29,7 @@ export default function Footer() {
     return (
         <div>
             <div className="container mx-auto px-6">
-                <div className="mt-16 border-gray-300 flex flex-col items-center">
+                <div className="border-gray-300 flex flex-col items-center">
                     <div className="sm:w-2/3 text-center py-6">
                         <Fade bottom>
                         <p className="text-sm text-black font-medium mb-2">

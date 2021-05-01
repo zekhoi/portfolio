@@ -10,13 +10,13 @@ export default function About() {
                     <div className="container px-8 mx-auto py-4">
                         <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-2 mx-auto">
                             <Fade left>
-                            <div className="max-w-d h-auto p-4">
-                                <Image src="/happy.svg" alt="Happy Coding" width={500} height={500} />
+                            <div className="max-w-md h-auto p-4">
+                                <Image src="/images/svg/profile.svg" alt="About Me" width={500} height={500} />
                             </div>
                             </Fade>
 
                             <Fade right>
-                            <div className="max-w-d h-auto p-4 my-auto text-white">
+                            <div className="max-w-md h-auto p-4 my-auto text-white">
                                 <h2 className="text-2xl md:text-2xl font-medium py-2">About Me</h2>
                                 <h3 className="font-sans font-medium text-xl">Full-Stack Developer</h3>
                                 <h4 className="font-sans mb-8 mt-4">

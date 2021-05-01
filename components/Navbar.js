@@ -58,11 +58,11 @@ export default function Navbar() {
                         <Link className={`cursor-pointer	p-2 lg:px-4 md:mx-2 rounded  ${navBackground ? "hover:bg-two hover:text-white" : "hover:bg-white hover:text-two"} transition-colors duration-300`} to="skills" spy={true} smooth={true} duration={500}>
                             Skills
                         </Link>
-                        <Link className={`cursor-pointer	p-2 lg:px-4 md:mx-2 rounded  ${navBackground ? "hover:bg-two hover:text-white" : "hover:bg-white hover:text-two"} transition-colors duration-300`} to="activities" spy={true} smooth={true} duration={500}>
-                            Activities
-                        </Link>
                         <Link className={`cursor-pointer	p-2 lg:px-4 md:mx-2 rounded  ${navBackground ? "hover:bg-two hover:text-white" : "hover:bg-white hover:text-two"} transition-colors duration-300`} to="projects" spy={true} smooth={true} duration={500}>
                             Projects
+                        </Link>
+                        <Link className={`cursor-pointer	p-2 lg:px-4 md:mx-2 rounded  ${navBackground ? "hover:bg-two hover:text-white" : "hover:bg-white hover:text-two"} transition-colors duration-300`} to="activities" spy={true} smooth={true} duration={500}>
+                            Activities
                         </Link>
                     </div>
                 </div>

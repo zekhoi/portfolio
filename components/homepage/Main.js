@@ -25,9 +25,19 @@ export default function Main() {
                                 <Fade bottom>
                                 <h2 className="text-xl font-normal my-5">Full-Stack Developer</h2>
                                 <div className="flex flex-row justify-center space-x-4 text-xl">
-                                    <div className=""><i className="lni lni-github-original cursor-pointer"></i></div>
-                                    <div className=""><i className="lni lni-linkedin-original cursor-pointer"></i></div>
-                                    <div className=""><i className="lni lni-behance-original cursor-pointer"></i></div>
+
+                                    <Link href="https://github.com/zekhoi">
+                                        <i className="lni lni-github-original cursor-pointer"/>
+                                    </Link>
+                                    
+                                    <Link href="https://www.linkedin.com/in/khoironiks/">
+                                        <i className="lni lni-linkedin-original cursor-pointer"/>
+                                    </Link>
+                                    
+                                    <Link href="https://www.behance.net/zekhoi">
+                                        <i className="lni lni-behance-original cursor-pointer"/>
+                                    </Link>
+                                    
                                 </div>
                                 <Link href="https://www.linkedin.com/in/khoironiks/">
                                     <button className="text-white border border-solid rounded-full bg-two border-two hover:bg-white hover:text-two active:bg-white font-semibold px-8 py-2 rounded outline-none focus:outline-none my-5" type="button" style={{ transition: "all .15s ease" }}>

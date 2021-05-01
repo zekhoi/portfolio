@@ -13,7 +13,7 @@ export default function Activities() {
                     </Fade>
 
                     {/* <h1 className="text-4xl text-center">Work In Progress</h1> */}
-                    <div className="grid xl:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 gap-2 mx-auto justify-items-center">   
+                    <div className="grid xl:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-2 mx-auto justify-items-center">   
 
                         <Fade bottom>
                         <div className="max-w-xs rounded-lg hover:shadow-lg shadow transform transition duration-500 hover:scale-110 m-2">
@@ -40,7 +40,7 @@ export default function Activities() {
                             <Image className="object-cover w-full border-b rounded-b-none rounded" src="/images/certificates/big-data-analytics.png" alt="Fundamental Python dan Big Data Analytics" width={280} height={200}/>
                             <div className="px-6 py-4">
                                 <h4 className="text-xl font-semibold tracking-tight text-gray-800">Webinar</h4>
-                                <h5 className="text-md tracking-tight text-gray-800 my-3">Fundamental Python dan Big Data Analytics</h5>
+                                <h5 className="text-md tracking-tight text-gray-800 my-3">Fundamental Python and Big Data Analytics</h5>
                             </div>
                         </div>
                         </Fade>
