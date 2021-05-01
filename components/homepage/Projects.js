@@ -16,7 +16,7 @@ export default function Projects() {
                     <div className="grid xl:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 gap-2 mx-auto justify-items-center">
                         <Fade bottom>
                         <div className="max-w-xs rounded-lg shadow hover:shadow-lg transform transition duration-500 hover:scale-105 m-2">
-                            <img className="object-cover w-full border-b rounded-b-none rounded" src="/images/projects/portfolio.png" alt="Next JS Portfolio Website"/>
+                            <Image className="object-cover w-full border-b rounded-b-none rounded" src="/images/projects/portfolio.png" alt="Next JS Portfolio Website" width={320} height={180}/>
                             <div className="px-6 py-4">
                                 <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">Portfolio Website</h4>
                                 <h5 className="text-md tracking-tight text-gray-800">Technologies :</h5>

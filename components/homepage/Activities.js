@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import Fade from 'react-reveal/Fade';
 
 export default function Activities() {
@@ -16,7 +17,7 @@ export default function Activities() {
 
                         <Fade bottom>
                         <div className="max-w-xs rounded-lg hover:shadow-lg shadow transform transition duration-500 hover:scale-110 m-2">
-                            <img className="object-cover w-full border-b rounded-b-none rounded" src="https://buildwithangga.com/storage/assets/certificates/bwa-certificate-full-stack-javascript-developer-khoironi-kurnia-syah.jpg" alt="Full-Stack Javascript Developer"/>
+                            <Image className="object-cover w-full border-b rounded-b-none rounded" src="/images/certificates/bwa-certificate-full-stack-javascript-developer-khoironi-kurnia-syah.jpg" alt="Full-Stack Javascript Developer" width={280} height={200}/>
                             <div className="px-6 py-4">
                                 <h4 className="text-xl font-semibold tracking-tight text-gray-800">Online Course</h4>
                                 <h5 className="text-md tracking-tight text-gray-800 my-3">Full-Stack Javascript Developer</h5>
@@ -26,7 +27,7 @@ export default function Activities() {
 
                         <Fade bottom>
                         <div className="max-w-xs rounded-lg hover:shadow-lg shadow transform transition duration-500 hover:scale-110 m-2">
-                            <img className="object-cover w-full border-b rounded-b-none rounded" src="https://buildwithangga.com/storage/assets/certificates/bwa-certificate-full-stack-flutter-mobile-apps-developer-khoironi-kurnia-syah.jpg" alt="Flutter Mobile Developer"/>
+                            <Image className="object-cover w-full border-b rounded-b-none rounded" src="/images/certificates/bwa-certificate-full-stack-flutter-mobile-apps-developer-khoironi-kurnia-syah.jpg" alt="Flutter Mobile Developer" width={280} height={200}/>
                             <div className="px-6 py-4">
                                 <h4 className="text-xl font-semibold tracking-tight text-gray-800">Online Course</h4>
                                 <h5 className="text-md tracking-tight text-gray-800 my-3">Flutter Mobile Developer</h5>
@@ -36,7 +37,7 @@ export default function Activities() {
 
                         <Fade bottom>
                         <div className="max-w-xs rounded-lg hover:shadow-lg shadow transform transition duration-500 hover:scale-110 m-2">
-                            <img className="object-cover w-full border-b rounded-b-none rounded" src="/images/certificates/big-data-analytics.png" alt="Fundamental Python dan Big Data Analytics"/>
+                            <Image className="object-cover w-full border-b rounded-b-none rounded" src="/images/certificates/big-data-analytics.png" alt="Fundamental Python dan Big Data Analytics" width={280} height={200}/>
                             <div className="px-6 py-4">
                                 <h4 className="text-xl font-semibold tracking-tight text-gray-800">Webinar</h4>
                                 <h5 className="text-md tracking-tight text-gray-800 my-3">Fundamental Python dan Big Data Analytics</h5>
@@ -46,7 +47,7 @@ export default function Activities() {
 
                         <Fade bottom>
                         <div className="max-w-xs rounded-lg hover:shadow-lg shadow transform transition duration-500 hover:scale-110 m-2">
-                            <img className="object-cover w-full border-b rounded-b-none rounded" src="/images/certificates/basic-cyber-security.png" alt="Basic Cyber Security with Python"/>
+                            <Image className="object-cover w-full border-b rounded-b-none rounded" src="/images/certificates/basic-cyber-security.png" alt="Basic Cyber Security with Python" width={280} height={200}/>
                             <div className="px-6 py-4">
                                 <h4 className="text-xl font-semibold tracking-tight text-gray-800">Webinar</h4>
                                 <h5 className="text-md tracking-tight text-gray-800 my-3">Basic Cyber Security with Python</h5>
