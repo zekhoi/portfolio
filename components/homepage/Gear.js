@@ -21,7 +21,7 @@ export default function Gear() {
                                     <li className="font-sans font-medium ">Armaggeddon Gaming Monitor Pixxel+ Pro PF22HD 22” 75Hz</li>
                                     <li className="font-sans font-medium ">NYK Nemesis Keyboard Gaming KR-201 Game Master</li>
                                     <li className="font-sans font-medium ">Digital Alliance LUNA Gaming Mouse</li>
-                                    <li className="font-sans font-medium ">Mousepad Rexus KVLAR T5 Gaming MousePad</li>
+                                    <li className="font-sans font-medium ">Rexus KVLAR T5 Gaming MousePad</li>
                                     <li className="font-sans font-medium ">Microsoft Headset</li>
                                     <li className="font-sans font-medium ">BM800 Microphone</li>
                                 </ul>
