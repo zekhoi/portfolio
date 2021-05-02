@@ -67,7 +67,7 @@ export default function Main() {
                     {/*content*/}
                     <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                         {/*header*/}
-                        <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
+                        <div className="flex items-start justify-between p-5 border-b border-solid">
                             <h3 className="text-2xl font-semibold">
                                 Contact Me
                             </h3>
@@ -81,7 +81,7 @@ export default function Main() {
                             </ul>
                         </div>
                         {/*footer*/}
-                        <div className="flex items-center justify-end p-2 border-t border-solid border-blueGray-200 rounded-b">
+                        <div className="flex items-center justify-end p-2 border-t border-solid">
                         <button
                             className="text-white bg-red-500 hover:bg-white hover:text-red-500 hover:border-red-500 border border-red-500 active:bg-white font-bold px-3 py-2 md:px-3 md:py-2 rounded outline-none focus:outline-none" type="button" onClick={() => setModal(false)}>
                             Close
