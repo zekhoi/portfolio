@@ -21,7 +21,7 @@ export default function About() {
                                 <h4 className="font-sans mb-8 mt-2">
                                     Hi, my name is Khoironi Kurnia Syah, currently still studying Mathematics at Lambung Mangkurat University. I really love solving problems, especially those related to website, data, and security. Fast learner and always doing a new thing.
                                 </h4>
-                                <Link href="https://www.instalgram.com/zekhoi">
+                                <Link href="https://resume.io/r/iuDuhDJJn">
                                     <button className="text-white bg-two hover:bg-white hover:text-two hover:border-two border border-two active:bg-white font-bold px-3 py-2 md:px-3 md:py-2 rounded outline-none focus:outline-none mr-1 mb-1" type="button" style={{ transition: "all .15s ease" }}>
                                         Download CV
                                     </button>
