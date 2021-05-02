@@ -18,9 +18,8 @@ export default function About() {
                             <Fade right>
                             <div className="max-w-md h-auto p-4 my-auto text-white">
                                 <h2 className="text-2xl md:text-2xl font-medium py-2">About Me</h2>
-                                <h3 className="font-sans font-medium text-xl">Full-Stack Developer</h3>
-                                <h4 className="font-sans mb-8 mt-4">
-                                    Responsible for front-end and back-end web development. Understand several how to work with several languages and databases including PHP, HTML, CSS, JavaScript and everything in between.
+                                <h4 className="font-sans mb-8 mt-2">
+                                    Hi, my name is Khoironi Kurnia Syah, currently still studying Mathematics at Lambung Mangkurat University. I really love solving problems, especially those related to website, data, and security. Fast learner and always doing a new thing.
                                 </h4>
                                 <Link href="https://www.instalgram.com/zekhoi">
                                     <button className="text-white bg-two hover:bg-white hover:text-two hover:border-two border border-two active:bg-white font-bold px-3 py-2 md:px-3 md:py-2 rounded outline-none focus:outline-none mr-1 mb-1" type="button" style={{ transition: "all .15s ease" }}>

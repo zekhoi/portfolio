@@ -6,7 +6,7 @@ export default function Social() {
         <div>
             <div id="social">
                 <div className="container mx-auto border-b">
-                    <div className="px-8 py-16">
+                    <div className="px-8 md:py-16 py-8">
                         <Fade bottom>
                         <div className="flex flex-row justify-around text-3xl">
                             <Link href="https://facebook.com/zxkhoi">
