@@ -42,7 +42,6 @@ export default function Projects() {
                                     <Image src="/images/icons/css3.png" alt="CSS3" width={25} height={25} />
                                     <Image src="/images/icons/nextjs.png" alt="Next JS" width={25} height={25} />
                                     <Image src="/images/icons/tailwind.png" alt="Tailwind" width={25} height={25} />
-                                    <Image src="/images/icons/rest.png" alt="REST API" width={25} height={25} />
                                 </div>
                             </div>
                         </div>
