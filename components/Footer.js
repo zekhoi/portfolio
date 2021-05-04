@@ -40,7 +40,7 @@ export default function Footer() {
                         </div>
                     </div>
                     <Fade right>
-                        <button className={`${over ? "hidden" : ""} fixed rounded-full bg-two text-white shadow-md p-3 flex right-5 bottom-5 z-50 focus:outline-none`} onClick={() => scroll.scrollToTop()}><i className="lni lni-chevron-up"></i></button>
+                        <button className={`${over ? "hidden" : ""} fixed rounded-full bg-two text-white shadow-lg p-3 flex right-5 bottom-5 z-50 focus:outline-none`} onClick={() => scroll.scrollToTop()}><i className="lni lni-chevron-up"></i></button>
                     </Fade>
                 </div>
             </div>
