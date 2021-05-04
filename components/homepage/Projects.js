@@ -17,7 +17,7 @@ export default function Projects() {
 
                         <Fade bottom>
                         <div className="max-w-xs rounded-lg shadow hover:shadow-lg transform transition duration-500 hover:scale-105 m-2">
-                            <Image className="object-cover w-full border-b rounded-b-none rounded" src="/images/projects/portfolio.png" alt="Next JS Portfolio Website" width={320} height={180}/>
+                            <Image className="object-cover w-full border border-b rounded-b-none rounded" src="/images/projects/portfolio.png" alt="Next JS Portfolio Website" width={320} height={180}/>
                             <div className="px-6 py-4">
                                 <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">Portfolio Website</h4>
                                 <h5 className="text-md tracking-tight text-gray-800">Technologies :</h5>
@@ -33,7 +33,7 @@ export default function Projects() {
 
                         <Fade bottom>
                         <div className="max-w-xs rounded-lg shadow hover:shadow-lg transform transition duration-500 hover:scale-105 m-2">
-                            <Image className="object-cover w-full border-b rounded-b-none rounded" src="/images/projects/not.jpg" alt="Covid Tracker" width={320} height={180}/>
+                            <Image className="object-cover w-full border border-b rounded-b-none rounded" src="/images/projects/not.jpg" alt="Covid Tracker" width={320} height={180}/>
                             <div className="px-6 py-4">
                                 <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">Covid Tracker</h4>
                                 <h5 className="text-md tracking-tight text-gray-800">Technologies :</h5>
@@ -50,7 +50,7 @@ export default function Projects() {
 
                         <Fade bottom>
                         <div className="max-w-xs rounded-lg shadow hover:shadow-lg transform transition duration-500 hover:scale-105 m-2">
-                            <Image className="object-cover w-full border-b rounded-b-none rounded" src="/images/projects/not.jpg" alt="Anime List" width={320} height={180}/>
+                            <Image className="object-cover w-full border border-b rounded-b-none rounded" src="/images/projects/not.jpg" alt="Anime List" width={320} height={180}/>
                             <div className="px-6 py-4">
                                 <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">Anime List</h4>
                                 <h5 className="text-md tracking-tight text-gray-800">Technologies :</h5>
@@ -67,7 +67,7 @@ export default function Projects() {
 
                         <Fade bottom>
                         <div className="max-w-xs rounded-lg shadow hover:shadow-lg transform transition duration-500 hover:scale-105 m-2">
-                            <Image className="object-cover w-full border-b rounded-b-none rounded" src="/images/projects/not.jpg" alt="React Components" width={320} height={180}/>
+                            <Image className="object-cover w-full border border-b rounded-b-none rounded" src="/images/projects/not.jpg" alt="React Components" width={320} height={180}/>
                             <div className="px-6 py-4">
                                 <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">React Components</h4>
                                 <h5 className="text-md tracking-tight text-gray-800">Technologies :</h5>
