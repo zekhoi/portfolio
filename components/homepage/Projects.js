@@ -68,7 +68,7 @@ export default function Projects() {
                         <div className="max-w-xs rounded-lg shadow hover:shadow-lg transform transition duration-500 hover:scale-105 m-2">
                             <Image className="object-cover w-full border-b-2 rounded-b-none rounded" src="/images/projects/not.jpg" alt="React Components" width={320} height={180}/>
                             <div className="px-6 py-4">
-                                <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">React Components</h4>
+                                <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">NextJS Blog</h4>
                                 <h5 className="text-md tracking-tight text-gray-800">Technologies :</h5>
                                 <div className="flex justify-start gap-2 py-2">
                                     <Image src="/images/icons/html5.png" alt="HTML5" width={25} height={25} />
